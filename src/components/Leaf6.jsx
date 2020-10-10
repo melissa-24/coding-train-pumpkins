@@ -5,7 +5,7 @@ const Leaf6 = ({ myText }) => {
     const [key, setKey] = useState(1)
 
     const one = useSpring({
-        from: { transform: 'translate(100px, -25px)'},
+        from: { transform: 'translate(150px, -150px)'},
         to: { transform: 'translate(-175px, 300px)'},
         config: { duration: 22000 },
         reset: true,
@@ -14,7 +14,7 @@ const Leaf6 = ({ myText }) => {
         }
     })
     const two = useSpring({
-        from: { transform: 'translate(75px, -50px)'},
+        from: { transform: 'translate(75px, -150px)'},
         to: { transform: 'translate(-50, 300px)'},
         config: { duration: 22000 },
         reset: true,
@@ -116,7 +116,7 @@ const Leaf6 = ({ myText }) => {
     return (
         <div key={key} className='text'>
             <animated.div style={one}>{myText}</animated.div>
-            <animated.div style={two}>{myText}</animated.div>
+            <animated.div className='text--scroll' style={two}>{myText}</animated.div>
             <animated.div style={three}>{myText}</animated.div>
             <animated.div style={four}>{myText}</animated.div>
             <animated.div style={five}>{myText}</animated.div>
