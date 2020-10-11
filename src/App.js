@@ -17,6 +17,7 @@ import Leaf3 from './components/Leaf3'
 import Leaf4 from './components/Leaf4'
 import Leaf5 from './components/Leaf5'
 import Leaf6 from './components/Leaf6'
+import StuckLeaves from './components/StuckLeaves'
 
 class App extends React.Component {
   render() {
@@ -28,34 +29,11 @@ class App extends React.Component {
         <div className='leaves'>
           <Leaf1 myText={<img src={First} alt="" id='leaf1' />} />
           <Leaf2 myText={<img src={Second} alt="" id='leaf2' />} />
-          <Leaf3 myText={<img src={Third} alt="" id='leaf3' />} />
-          <Leaf4 myText={<img src={Fourth} alt="" id='leaf4' />} />
-          <Leaf5 myText={<img src={Fifth} alt="" id='leaf5' />} />
-          <Leaf6 myText={<img src={Sixth} alt="" id='leaf6' />} />
-          <img src={Sixth} alt="" id='leaf6' className='stays' />
-          <img src={Sixth} alt="" id='leaf5' className='stays' />
-          <img src={Sixth} alt="" id='leaf4' className='stays' />
-          <img src={Sixth} alt="" id='leaf3' className='stays' />
-          <img src={Fifth} alt="" id='leaf2' className='stays' />
-          <img src={Fifth} alt="" id='leaf1' className='stays' />
-          <img src={Fifth} alt="" id='leaf3' className='stays' />
-          <img src={Fifth} alt="" id='leaf6' className='stays' />
-          <img src={Fourth} alt="" id='leaf6' className='stays' />
-          <img src={Fourth} alt="" id='leaf2' className='stays' />
-          <img src={Fourth} alt="" id='leaf4' className='stays' />
-          <img src={Fourth} alt="" id='leaf1' className='stays' />
-          <img src={Third} alt="" id='leaf3' className='stays' />
-          <img src={Third} alt="" id='leaf5' className='stays' />
-          <img src={Third} alt="" id='leaf1' className='stays' />
-          <img src={Third} alt="" id='leaf2' className='stays' />
-          <img src={Second} alt="" id='leaf6' className='stays' />
-          <img src={Second} alt="" id='leaf4' className='stays' />
-          <img src={Second} alt="" id='leaf2' className='stays' />
-          <img src={Second} alt="" id='leaf3' className='stays' />
-          <img src={First} alt="" id='leaf1' className='stays' />
-          <img src={First} alt="" id='leaf2' className='stays' />
-          <img src={First} alt="" id='leaf3' className='stays' />
-          <img src={First} alt="" id='leaf4' className='stays' />
+          {/* <Leaf3 myText={<img src={Third} alt="" id='leaf3' />} /> */}
+          {/* <Leaf4 myText={<img src={Fourth} alt="" id='leaf4' />} /> */}
+          {/* <Leaf5 myText={<img src={Fifth} alt="" id='leaf5' />} /> */}
+          {/* <Leaf6 myText={<img src={Sixth} alt="" id='leaf6' />} /> */}
+          {/* <StuckLeaves /> */}
         </div>
       </div>
       <div className="pumpkins">

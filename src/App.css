@@ -28,17 +28,8 @@ body {
   transform: rotateY(190deg)
     rotateX(90deg);
 }
-.stays { 
-  position: absolute;
-  width: 8%;
-  transform-origin: 20px -10px 10px;
-  animation-name: fall, sway;
-  animation-duration: 20s, 20s;
-  animation-fill-mode: both;
-  animation-timing-function: linear, ease-in-out;
-}
-#leaf1 { width: 15%;top: -60px; }
-#leaf2 { width: 10%; top: -45px; left: 50%; animation-delay: 2s; transform: rotateX(58deg); }
+#leaf1 { width: 10%; }
+#leaf2 { width: 10%; }
 #leaf3 { width: 8%; top: -122px; left: 22%; animation-delay: 3.2s; }
 #leaf4 { width: 5%; top: -55px; left: 38%; animation-delay: 4.4s; }
 #leaf5 { width: 8%; top: -45px; left: 30%; animation-delay: 2.25s; }
