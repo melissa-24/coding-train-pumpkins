@@ -1,0 +1,15 @@
+.stays1 { 
+    position: absolute;
+    width: 8%;
+    transform-origin: 20px -30px 10px;
+    animation-name: fall, sway;
+    animation-duration: 20s, 20s;
+    animation-fill-mode: both;
+    animation-timing-function: linear, ease-in-out;
+  }
+#stuck1 { width: 75px; top: -30px; left: 75%; animation-delay: 0.5s; }
+#stuck2 { width: 80px; top: -20px; left: 28%; animation-delay: 1.5s; }
+#stuck3 { width: 75px; top: 20px; left: 38%; animation-delay: 0.4s; }
+#stuck4 { width: 75px; top: -12px; left: 2%; animation-delay: 0.2s; }
+#stuck5 { width: 95px; top: -20px; left: 5%; animation-delay: 1.5s; }
+#stuck6 { width: 75px; top: 10px; left: 45%; animation-delay: 1s; }

@@ -61,7 +61,7 @@ const Leaf1 = ({ myText }) => {
     const seven = useSpring({
         from: { transform: 'translate(-250px, -350px)'},
         to: { transform: 'translate(-125px, 400px)'},
-        config: { duration: 22000 },
+        config: { duration: 15000 },
         reset: true,
         onRest: () => {
             setKey(key + 1)
