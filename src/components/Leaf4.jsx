@@ -5,8 +5,8 @@ const Leaf4 = ({ myText }) => {
     const [key, setKey] = useState(1)
 
     const one = useSpring({
-        from: { transform: 'translate(100px, -25px)'},
-        to: { transform: 'translate(-175px, 300px)'},
+        from: { transform: 'translate(100px, -425px)'},
+        to: { transform: 'translate(-175px, 400px)'},
         config: { duration: 15000 },
         reset: true,
         onRest: () => {
@@ -14,8 +14,8 @@ const Leaf4 = ({ myText }) => {
         }
     })
     const two = useSpring({
-        from: { transform: 'translate(75px, -50px)'},
-        to: { transform: 'translate(-50, 300px)'},
+        from: { transform: 'translate(75px, -450px)'},
+        to: { transform: 'translate(-50, 400px)'},
         config: { duration: 15000 },
         reset: true,
         onRest: () => {
@@ -23,8 +23,8 @@ const Leaf4 = ({ myText }) => {
         }
     })
     const three = useSpring({
-        from: { transform: 'translate(50px, -75px)'},
-        to: { transform: 'translate(-75px, 300px)'},
+        from: { transform: 'translate(50px, -475px)'},
+        to: { transform: 'translate(-75px, 400px)'},
         config: { duration: 15000 },
         reset: true,
         onRest: () => {
@@ -32,8 +32,8 @@ const Leaf4 = ({ myText }) => {
         }
     })
     const four = useSpring({
-        from: { transform: 'translate(25px, -100px)'},
-        to: { transform: 'translate(-25px, 300px)'},
+        from: { transform: 'translate(25px, -400px)'},
+        to: { transform: 'translate(-25px, 400px)'},
         config: { duration: 15000 },
         reset: true,
         onRest: () => {
@@ -41,8 +41,8 @@ const Leaf4 = ({ myText }) => {
         }
     })
     const five = useSpring({
-        from: { transform: 'translate(0px, -25px)'},
-        to: { transform: 'translate(-150px, 300px)'},
+        from: { transform: 'translate(0px, -425px)'},
+        to: { transform: 'translate(-150px, 400px)'},
         config: { duration: 15000 },
         reset: true,
         onRest: () => {
@@ -50,8 +50,8 @@ const Leaf4 = ({ myText }) => {
         }
     })
     const six = useSpring({
-        from: { transform: 'translate(-25px, -50px)'},
-        to: { transform: 'translate(-100px, 300px)'},
+        from: { transform: 'translate(-25px, -450px)'},
+        to: { transform: 'translate(-100px, 400px)'},
         config: { duration: 15000 },
         reset: true,
         onRest: () => {
@@ -59,8 +59,8 @@ const Leaf4 = ({ myText }) => {
         }
     })
     const seven = useSpring({
-        from: { transform: 'translate(-50px, -75px)'},
-        to: { transform: 'translate(-125px, 300px)'},
+        from: { transform: 'translate(-50px, -475px)'},
+        to: { transform: 'translate(-125px, 400px)'},
         config: { duration: 15000 },
         reset: true,
         onRest: () => {
@@ -68,8 +68,8 @@ const Leaf4 = ({ myText }) => {
         }
     })
     const eight = useSpring({
-        from: { transform: 'translate(-75px, -100px)'},
-        to: { transform: 'translate(100px, 300px)'},
+        from: { transform: 'translate(-75px, -400px)'},
+        to: { transform: 'translate(100px, 400px)'},
         config: { duration: 15000 },
         reset: true,
         onRest: () => {
