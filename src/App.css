@@ -30,10 +30,10 @@ body {
 }
 #leaf1 { width: 10%; }
 #leaf2 { width: 10%; }
-#leaf3 { width: 8%; top: -122px; left: 22%; animation-delay: 3.2s; }
-#leaf4 { width: 5%; top: -55px; left: 38%; animation-delay: 4.4s; }
-#leaf5 { width: 8%; top: -45px; left: 30%; animation-delay: 2.25s; }
-#leaf6 { width: 18%; top: -65px; left: 55%; animation-delay: 1.8s; }
+#leaf3 { width: 10%; }
+#leaf4 { width: 10%; }
+#leaf5 { width: 10%; }
+#leaf6 { width: 11%; }
 
 .pumpkins {
   display: flex;
@@ -44,7 +44,7 @@ body {
   z-index: -10;
 }
 .pumpkins img {
-  width: 35%;
+  width: 200px;
 }
 @keyframes sway { 
 	0% { transform: rotateZ(-15deg) rotateX(55deg);  }

@@ -59,7 +59,7 @@ const Leaf2 = ({ myText }) => {
         }
     })
     const seven = useSpring({
-        from: { transform: 'translate(-400px, 450px)'},
+        from: { transform: 'translate(-400px, -450px)'},
         to: { transform: 'translate(-125px, 450px)'},
         config: { duration: 15000 },
         reset: true,
@@ -68,45 +68,9 @@ const Leaf2 = ({ myText }) => {
         }
     })
     const eight = useSpring({
-        from: { transform: 'translate(-75px, -100px)'},
+        from: { transform: 'translate(-75px, -450px)'},
         to: { transform: 'translate(100px, 300px)'},
-        config: { duration: 22000 },
-        reset: true,
-        onRest: () => {
-            setKey(key + 1)
-        }
-    })
-    const nine = useSpring({
-        from: { transform: 'translate(-100px, -25px)'},
-        to: { transform: 'translate(50px, 300px)'},
-        config: { duration: 22000 },
-        reset: true,
-        onRest: () => {
-            setKey(key + 1)
-        }
-    })
-    const ten = useSpring({
-        from: { transform: 'translate(-125px, -50px)'},
-        to: { transform: 'translate(25px, 300px)'},
-        config: { duration: 22000 },
-        reset: true,
-        onRest: () => {
-            setKey(key + 1)
-        }
-    })
-    const eleven = useSpring({
-        from: { transform: 'translate(-150px, -75px)'},
-        to: { transform: 'translate(75px, 300px)'},
-        config: { duration: 22000 },
-        reset: true,
-        onRest: () => {
-            setKey(key + 1)
-        }
-    })
-    const twelve = useSpring({
-        from: { transform: 'translate(-175px, -100px)'},
-        to: { transform: 'translate(0px, 300px)'},
-        config: { duration: 22000 },
+        config: { duration: 15000 },
         reset: true,
         onRest: () => {
             setKey(key + 1)
@@ -122,11 +86,7 @@ const Leaf2 = ({ myText }) => {
             <animated.div style={five}>{myText}</animated.div>
             <animated.div style={six}>{myText}</animated.div>
             <animated.div style={seven}>{myText}</animated.div>
-            {/* <animated.div style={eight}>{myText}</animated.div> */}
-            {/* <animated.div style={nine}>{myText}</animated.div> */}
-            {/* <animated.div style={ten}>{myText}</animated.div> */}
-            {/* <animated.div style={eleven}>{myText}</animated.div> */}
-            {/* <animated.div style={twelve}>{myText}</animated.div> */}
+            <animated.div style={eight}>{myText}</animated.div>
         </div>
     )
 }
